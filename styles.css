@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img, header h2{
+    float: left;
+}
+header{
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+header img{
+    width: 180px;
+}
+
+h2{
+    color: rgb(54, 54, 190) ;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 25px;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
